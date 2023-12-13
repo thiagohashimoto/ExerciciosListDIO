@@ -28,7 +28,20 @@ public class CarrinhoDeCompras {
         else {
             System.out.println("A lista está vazia!");
         }
-
     }
 
+    public void calcularValorTotal(){
+        double valorTotal = 0;
+        for (Item i:carrinhoList) {
+            valorTotal = (i.getPreco() * i.getQuantidade()) + valorTotal;
+
+        }
+        System.out.println(valorTotal);
+    }
+
+    public void exibirItens(){
+        System.out.println(carrinhoList);
+    }
 }
+
+
