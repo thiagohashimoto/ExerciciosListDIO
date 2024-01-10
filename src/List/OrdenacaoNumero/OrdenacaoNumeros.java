@@ -1,6 +1,5 @@
-package OrdenacaoNumero;
+package List.OrdenacaoNumero;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class OrdenacaoNumeros {
